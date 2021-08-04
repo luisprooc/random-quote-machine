@@ -9,11 +9,45 @@ body{
     font-family: 'Style Script', cursive;
     height: 100vh;
     background-color: aliceblue;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #BED0F4;
+}
+
+main{
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+}
+
+#quote-box{
+    padding: 5%;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
 
 #text{  
     display: block;
     text-align: center;
+}
+
+#author{  
+    display: block;
+    text-align: right;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#new-quote{  
+    background-color: rgb(41, 39, 39);
+    border: none;
+    color: white;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
 }
 
 h1{

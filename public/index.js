@@ -1,8 +1,10 @@
 const textCite = document.getElementById("text");
 const authorCite = document.getElementById("author");
+const btn = document.getElementById("new-quote");
 
 document.addEventListener("DOMContentLoaded",()=>{
     requestQuote();
+    btn.addEventListener("click",requestQuote);
 });
 
 function requestQuote(){
