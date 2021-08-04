@@ -7,6 +7,13 @@ html,body{
 
 body{
     font-family: 'Style Script', cursive;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+#text{  
+    display: block;
+    text-align: center;
 }
 
 h1{
@@ -31,5 +38,9 @@ h6{
 }
 
 p{
+    font-size: 1.5rem;
+}
+
+q{
     font-size: 1.5rem;
 }
